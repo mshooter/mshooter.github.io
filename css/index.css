@@ -15,51 +15,18 @@ beige #e0d2b4
     font-family: 'Roboto', sans-serif;
 }
 
-.sidebar_content .row{
-    background-color: #fffefbef;
-}
-
-.sidebar_content .footer{
-    color: #161505;
-}
-
-.sidebar_content .footer h6{
-    padding:5px;
-    font-size: small;
-}
-
-.navbar-custom{
-    background-color: #fffefbef;
-}
-
-.navbar-custom .navbar-brand{
-    padding-left: 30px;
-    color: #223745;
-    font-weight: bold;
-    font-size: x-large;
-}
-
-.navbar-custom .navbar-collapse > a {
-    color: #223745;
-    font-weight: bold;
-    font-size: medium;
-}
-
-.navbar-custom .navbar-collapse > a:hover, .navbar-custom .navbar-collapse > a:focus {
-    background-color: #f8f5ec;
-    font-weight: bolder;
-    color: #223745;
-    border-radius: 10%;
-}
-
 .sidebar_content .col-sm-2{
-    background-color: #81b0ce;
+    background-color: #81b0ce98;
     padding: 0;
 }
 
 .sidebar_content .col-sm{
-    background-color: #fffefb;
-    padding: 10;
+    background-color: #fffefbef;
+    padding-top: 10px;
+}
+
+.sidebar_content .col-sm .row h4{
+    font-weight: bold;
 }
 
 .sidebar_content img{
@@ -75,6 +42,8 @@ beige #e0d2b4
 .sidebar_content p{
     color: white; 
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .sidebar_content ul li{
