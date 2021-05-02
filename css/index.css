@@ -29,7 +29,7 @@ beige #e0d2b4
     font-weight: bold;
 }
 
-.sidebar_content img{
+.sidebar_content .container-fluid .row .col-sm-2 .img-fluid{
     display: block;
     margin: auto;
     text-align: center;
@@ -37,6 +37,16 @@ beige #e0d2b4
     padding: 10px;
     max-width: 75%;
     max-height: 75%;
+}
+
+#photogallery{
+    padding:10px;
+    margin:0;
+    background-color: bisque;
+}
+
+#photogallery .carousel-indicators .active{
+    background-color:red;
 }
 
 .sidebar_content p{
