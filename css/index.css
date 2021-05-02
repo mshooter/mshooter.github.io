@@ -42,11 +42,17 @@ beige #e0d2b4
 #photogallery{
     padding:10px;
     margin:0;
-    background-color: bisque;
+    background-color: #fffefbef;
 }
 
-#photogallery .carousel-indicators .active{
-    background-color:red;
+#photogallery img{
+    height: 15vw; 
+    object-fit:cover;
+}
+
+#photogallery .card{
+   max-width: 15rem; 
+   margin-right: 2rem;
 }
 
 .sidebar_content p{

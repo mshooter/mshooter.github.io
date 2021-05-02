@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+    <meta charset="UTF-i">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0b2b521e26.js" crossorigin="anonymous"></script>
+</head>
+   
+   
+<body>
+    {% include navbar.html %} 
+    <div class="sidebar_content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                <img class="img-fluid" src="images/profile-pic.jfif" alt="profile picture">  
+                <p>
+                    Welcome to my blog, I am Moira! <br>
+                    <br>
+                    I'm a first year PhD student at the Center of Vision, Speech and Signal Processing (University of Surrey, UK). <br>
+                    <br>
+                    This blog involves posts about my academic life and research. 📚<br> 
+                    <br>
+                    Things I love: real-time technology and animation, reading, nature and learning new things!  
+                </p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/moira-shooter-301107150"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                    <li><a href="https://twitter.com/moira_shooter"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li><a href="https://github.com/mshooter"><i class="fab fa-github-square"></i>Github</a></li>
+                    <li><a href="mailto:m.shooter@surrey.ac.uk"><i class="fas fa-envelope-square"></i>E-mail</a></li>
+                </ul>
+                </div>
+                <div class="col-sm">
+                    <div class="row justify-content-center">
+                        <h4>Recent Posts</h4>
+                    </div>
+                    <div class="row-sm carousel slide rounded" id="photogallery" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox" style=" width: 100%; padding:0; margin:0;">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center" style="padding-top:10px;">
+                                <div class="card-deck justify-content-center">
+                                <a href={% post_url 2021-05-02-First-post %}>
+                                <div class="card">
+                                    <img class="card-img-top" src="images/flower2.jpg" alt="first post">
+                                    <div class="card-body">
+                                        <p class="card-text" style="color: black;">First post</p>
+                                    </div>
+                                </div>
+                                </a>
+                                <a href="#">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/flower0.jpg" alt="second post">
+                                    <div class="card-body">
+                                        <p class="card-text" style="color: black;">Second post</p>
+                                    </div>
+                                </div>
+                                </a>
+                                <a href="#">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/flower3.jpg" alt="third post">
+                                    <div class="card-body">
+                                        <p class="card-text" style="color: black;">Third post</p>
+                                    </div>
+                                </div>
+                                </a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#photogallery" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left" style="color:black; left:0;"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#photogallery" role="button" data-slide="next" >
+                            <i class="fa fa-chevron-right" style="color:black; right:0"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer border-top border-light justify-content-center">
+                <h6>
+                    &copy; <em id="date">2021</em> Moira Shooter
+                </h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
