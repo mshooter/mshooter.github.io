@@ -62,36 +62,31 @@ beige #e0d2b4
     font-weight: bold;
 }
 
-.sidebar_content ul li{
-    padding-left: 0;
-    margin: 0;
+#icons li{
+    float:left;
 }
 
-.sidebar_content ul li a
+#icons li a
 {
     display: block;
-    color: #fffefbef;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: small;
+    color: black;
+    padding: 0px 10px;
+    font-size: medium;
 }
 
-.sidebar_content ul li a .fab{
-    width: 25px; 
+#icons li a .fab{
+    width: 30px; 
 }
 
-.sidebar_content ul li a .fas{
-    width: 25px; 
+#icons li a .fas{
+    width: 30px; 
 }
 
-.sidebar_content ul li a:hover{
-    background-color: #607f94;
+#icons li a:hover{
+    border-bottom: 1px solid #444444de;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.sidebar_content ul li a:hover a{
-    color: #ecebe2;
+#icons li a:hover a{
     font-weight: bolder;
 }
