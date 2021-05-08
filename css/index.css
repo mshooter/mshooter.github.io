@@ -62,16 +62,20 @@ beige #e0d2b4
     font-weight: bold;
 }
 
+#icons{
+    display:flex;
+}
+
 #icons li{
-    float:left;
+    float:left 
 }
 
 #icons li a
 {
     display: block;
     color: black;
-    padding: 0px 10px;
-    font-size: medium;
+    font-size: small;
+    padding-right: 10px;
 }
 
 #icons li a .fab{
@@ -83,10 +87,66 @@ beige #e0d2b4
 }
 
 #icons li a:hover{
-    border-bottom: 1px solid #444444de;
+    background-color:  #e6e6e6de;
+    text-decoration: none;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+
+#AboutMeSection{
+    position:absolute; 
+    top:60%; 
+    left:50%; 
+    transform: translate(-50%,-50%); 
+    color:black; 
+    background-color: white;
+}
+
+.custom-card
+{
+    color:black; 
     text-decoration: none;
 }
 
-#icons li a:hover a{
-    font-weight: bolder;
+.custom-card:hover{
+    color:black; 
+    text-decoration: none;
 }
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/*small devices and up*/
+@media screen and (max-width: 567px){
+    #intro{
+        font-size: 10px;        
+    }
+
+    #icons li a
+    {
+        font-size: 10px; 
+    }
+
+    #frontTitle
+    {
+        font-size: x-large;
+    }
+
+    #AboutMeSection{
+        position:absolute; 
+        width: 99%;
+        top:50%; 
+        left:50%; 
+        transform: translate(-50%,-50%); 
+    }
+}
+
+/* @media only screen and (max-width: 600px){
+    #icons li a
+    {
+        font-size: small;
+        padding-right: 10px;
+    }
+} */

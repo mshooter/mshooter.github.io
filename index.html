@@ -12,23 +12,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0b2b521e26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
 </head>
    
    
 <body>
     <!-- Navigation bar-->
-    <nav class="navbar py-3 navbar-expand navbar-custom flex-column flex-md-row">
+    <nav class="navbar py-3 sticky-top border-bottom navbar-expand navbar-custom flex-column flex-md-row">
         <div class="w-100 d-flex justify-content-center align-content-center">
-        <a class="navbar-brand font-weight-bold align-content-center p-2" href="#">Moira's Blog</a>
+        <a class="navbar-brand font-weight-bold align-content-center p-2" href="index.html">Moira's Blog</a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse p-2 w-100 justify-content-center align-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="m-auto nav-item nav-link active" href="#"><span class="sr-only">(current)</span>Home</a>
-            <a class="m-auto nav-item nav-link" href="#">Posts</a>
-            <a class="m-auto nav-item nav-link" href="#">About me</a>
+            <a class="m-auto nav-item nav-link active" href="index.html"><span class="sr-only">(current)</span>About me</a>
+            <a class="m-auto nav-item nav-link" href="posts.html">Posts</a>
             <a class="m-auto nav-item nav-link" href="#">Resume</a>
             </div>
         </div>
@@ -38,18 +38,21 @@
     <div class="container-fluid">
         <div class="row">
             <img class="img-fluid" src="images/background_img.jpeg" alt="background image" style="width:100%; height:auto;">
-            <div class="text-center w-75 h-auto p-3" style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); color:black; background-color: white;">
-                <h1>About me</h1>
-                <img class="img-fluid px-2 py-2" src="images/profile-pic.jfif" alt="profile picture" style="border-radius: 50%; max-width: 20%; height: auto;">
+            <div id="AboutMeSection" class="text-center mw-75 p-3" >
+                <h1 id="frontTitle">About me</h1>
+                <img class="img-fluid p-2" src="images/profile-pic.jfif" alt="profile picture" style="border-radius: 50%; max-width: 25%; height: auto;">
                 <div class="container w-75 h-auto pt-2 text-center">
-                <p>  
-                    Welcome to my blog, I am Moira! <br><br>
-                    I'm a first year PhD student at the Center of Vision, Speech and Signal Processing (University of Surrey, UK). <br>
-                    This blog involves posts about my academic life and research.<br> <br>
-                    <b>Things I love:</b> real-time technology and animation, reading, nature and learning new things!  
+                <p id="intro">  
+                    Welcome to my blog, I am Moira! <br>
+                    This blog involves posts about my academic life and research. <br> <br>
+
+                    I'm a first year PhD student at the Center of Vision, Speech and Signal Processing (University of Surrey, UK). 
+                    <br><br>
+
+                    <b>Things I love:</b> <br> real-time technology and animation, reading, nature and learning new things!  
                 </p>
-                <div class="container w-50 h-auto mt-4">
-                <ul id="icons">
+                <div class="container w-75 pt-2">
+                <ul id="icons" class="list-inline mx-auto justify-content-center d-flex">
                     <li><a href="https://www.linkedin.com/in/moira-shooter-301107150"><i class="fab fa-linkedin"></i>Linkedin</a></li>
                     <li><a href="https://twitter.com/moira_shooter"><i class="fab fa-twitter"></i>Twitter</a></li>
                     <li><a href="https://github.com/mshooter"><i class="fab fa-github-square"></i>Github</a></li>
@@ -65,8 +68,8 @@
         <div class="row" style="min-height: 100px; background-color:rgb(250, 250, 250);"></div>
     </div> 
     <!-- footer -->
-    <footer class="bg-light text-center d-flex" style="bottom:0;">
-        <div class="container">
+    <footer class="w-100 border-top text-center" style="position:relative; bottom:0; background-color: white;">
+        <div class="container-fluid">
             <div class="p-3">
                 <h6> &copy; <em id="date">2021</em> Moira Shooter </h6>
             </div>
