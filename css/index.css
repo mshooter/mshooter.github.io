@@ -76,6 +76,7 @@ beige #e0d2b4
     color: black;
     font-size: small;
     padding-right: 10px;
+    text-decoration: none;
 }
 
 #icons li a .fab{
@@ -93,15 +94,6 @@ beige #e0d2b4
     font-weight: bolder;
 }
 
-#AboutMeSection{
-    position:absolute; 
-    top:60%; 
-    left:50%; 
-    transform: translate(-50%,-50%); 
-    color:black; 
-    background-color: white;
-}
-
 .custom-card
 {
     color:black; 
@@ -116,31 +108,6 @@ beige #e0d2b4
 .card:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-
-/*small devices and up*/
-@media screen and (max-width: 567px){
-    #intro{
-        font-size: 10px;        
-    }
-
-    #icons li a
-    {
-        font-size: 10px; 
-    }
-
-    #frontTitle
-    {
-        font-size: x-large;
-    }
-
-    #AboutMeSection{
-        position:absolute; 
-        width: 99%;
-        top:50%; 
-        left:50%; 
-        transform: translate(-50%,-50%); 
-    }
 }
 
 /* @media only screen and (max-width: 600px){
