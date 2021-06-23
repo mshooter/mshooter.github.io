@@ -13,6 +13,7 @@ beige #e0d2b4
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    background-color: #FBFBFF;
 }
 
 .sidebar_content .col-sm-2{
@@ -74,8 +75,7 @@ beige #e0d2b4
 {
     display: block;
     color: black;
-    font-size: small;
-    padding-right: 10px;
+    font-size: medium;
     text-decoration: none;
 }
 
