@@ -19,12 +19,12 @@
     text-align: center;
 }
 
-.navbar-custom .navbar-collapse .navbar-nav > a {
+.navbar-custom .navbar-collapse .navbar-nav .nav-item > a {
     color: #223745;
     font-size: large;
 }
 
-.navbar-custom .navbar-collapse .navbar-nav > a:hover, .navbar-custom .navbar-collapse > a:focus {
+.navbar-custom .navbar-collapse .navbar-nav .nav-item > a:hover, .navbar-custom .navbar-collapse > a:focus {
     border-bottom: 2px solid #dad7cede;
     font-weight:bolder;
     color: #223745;
