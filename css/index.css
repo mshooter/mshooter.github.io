@@ -13,9 +13,10 @@ beige #e0d2b4
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: "Lucida Console", "Courier New", monospace;
-    background-color: #FBFBFF;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #F6F7FA;
 }
+
 
 .sidebar_content .col-sm-2{
     background-color: #81b0ce98;
@@ -25,6 +26,7 @@ beige #e0d2b4
 .sidebar_content .col-sm{
     background-color: #fffefbef;
     padding-top: 10px;
+   
 }
 
 .sidebar_content .col-sm .row h4{
