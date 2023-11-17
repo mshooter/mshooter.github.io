@@ -63,7 +63,7 @@
         <!-- About me section -->
         <div id="aboutMe" class="row align-items-center">
             <div class="col-12 col-lg-4 text-center">
-            <img class="img-fluid p-4" src="images/profile-pic.jfif" alt="profile picture" style="border-radius: 50%; max-width:50%; height:auto;">
+            <img class="img-fluid p-4" src="images/pp.jpeg" alt="profile picture" style="border-radius: 50%; max-width:50%; height:auto;">
             <h4> Moira Shooter</h4>
             <h5> PhD student</h5>
             <ul id="icons" class="list-inline justify-content-center d-flex">
@@ -76,8 +76,8 @@
             <div class="col-12 col-lg-6 text-start"> 
                 <h2 class="px-4 pt-4">About me</h2>
                 <div>
-                <p class="px-4 py-2 justify inter-word" style="font-size:21px;">   
-                I'm a Ph.D. candidate in the <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing" style="text-decoration:none;">Center of Vision, Speech and Signal Processing</a> at the University of Surrey (UK) supervised by <a href="https://www.surrey.ac.uk/people/adrian-hilton" style="text-decoration:none;">Prof. Adrian Hilton</a> and <a href="https://www.surrey.ac.uk/people/charles-malleson" style="text-decoration:none;">Dr. Charles Malleson</a>. 
+                <p class="px-4 py-2 justify inter-word" style="font-size:large;">   
+                I'm a third year PhD student in the <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing" style="text-decoration:none;">Center of Vision, Speech and Signal Processing</a> at the University of Surrey (UK) supervised by <a href="https://www.surrey.ac.uk/people/adrian-hilton" style="text-decoration:none;">Prof. Adrian Hilton</a> and <a href="https://www.surrey.ac.uk/people/charles-malleson" style="text-decoration:none;">Dr. Charles Malleson</a>. 
                 I am currently focusing on the 3D reconstruction of animals from monocular views.  
                 My research interests include 3D reconstruction, computer vision, computer graphics, deep learning, visual effects, and real-time technology.
                 </p>
@@ -97,7 +97,7 @@
                   <div class="col-md-9">
                     <i class='fas fa-graduation-cap py-2'></i>
 		            <b>Ph.D. in Vision, Speech and Signal Processing</b>
-		            <p>University of Surrey (UK)</p>
+		            <p style="font-size:medium">University of Surrey (UK)</p>
 		          </div>
 		         <div class="col-md-3 timeline-date">
 		            <time datetime="2020-09">2020 - 2024</time>
@@ -109,7 +109,7 @@
                   <div class="col-md-9">
                     <i class='fas fa-graduation-cap py-2'></i>
                         <b>M.Sc. in Computer Vision, Robotics and Machine Learning</b>
-                        <p>
+                        <p style="font-size:medium">
                           University of Surrey (UK)<br>
                           <small class="text-mute">Distinction</small>
                         </p>
@@ -124,7 +124,7 @@
                   <div class="col-md-9">
                     <i class='fas fa-graduation-cap py-2'></i>
                         <b>B.Sc. (Hons) in Software Development for Animation, Games and Effects</b>
-                        <p>
+                        <p style="font-size:medium">
                           Bournemouth University (UK)<br>
                           <small class="text-mute">Second Class Honors (Upper Division)</small>
                         </p>
@@ -143,20 +143,48 @@
             <div class="col-lg-4 text-center">
                 <h2>Publications</h2>
             </div>
-            <div class="col-lg-8" style="font-size:21px;">
+            <div class="col-lg-6" style="font-size:21px;">
                 <ul>
-		    <li><i class="fas fa-file-alt py-2 px-1"></i>
-		    <b>MV-Sydog: A Multi-View 3D Dog Pose Dataset for Advancing 3D Pose Estimation</b>
-		    <p>Short paper at the 20th ACM SIGGRAPH European Conference on Visual Media Production <a href="https://www.cvmp-conference.org/2023/" style="text-decoration:none;"> (CVMP2023)</a></p>
-		    </li>
-		    <li><i class="fas fa-file-alt py-2 px-1"></i>
-                    <b>SyDog-Video: A Synthetic Dog Video Dataset for Temporal Pose Estimation</b> 
-                    <p>Poster presented at the Computer Vision for Animal Behavior Tracking and Modeling workshop<a href="https://www.cv4animals.com" style="text-decoration:none;"> (CV4Animals)</a> <br> In conjuction with Computer Vision and Pattern Recognition 2022 <a href="https://cvpr2022.thecvf.com" style="text-decoration:none;">(CVPR2022)</a> <br> <b style="color:red;">**[Coming soon]**</b> </p>
-                    </li>
-                    <li><i class="fas fa-file-alt py-2 px-1"></i>
-                    <b>SyDog: A Synthetic Dog Dataset for Improved 2D Pose Estimation</b> 
-                    <p>Poster presented at the Computer Vision for Animal Behavior Tracking and Modeling workshop<a href="https://www.cv4animals.com" style="text-decoration:none;"> (CV4Animals)</a> <br> In conjuction with Computer Vision and Pattern Recognition 2021 <a href="http://cvpr2021.thecvf.com" style="text-decoration:none;">(CVPR2021)</a> <br> <a href="resources/SyDog_paper.pdf" style="text-decoration:none;">[Paper]</a> <a href="resources/SyDog_supp.pdf" style="text-decoration:none;">[Supp]</a> <a href="https://mshooter.github.io/SyDog/" style="text-decoration:none;">[Project Page]</a></p>
-                    </li>
+		   <!-- < <li><i class="fas fa-file-alt py-2 px-1"></i>
+		    <b>DigiDogs: Single-View 3D Pose Estimation of Dogs using Synthetic Training Data</b>
+		    <p style="font-size:medium">Workshop paper presented at the Computer Vision with Small Data:
+A Focus on Infants and Endangered Animals<a href="https://cv4smalls.sites.northeastern.edu" style="text-decoration:none;"> (CV4Smalls)</a>. In conjuction with with WACV2024.</p>
+		    </li>-->
+		    <div class="row">
+			    <div class="col-lg-2 py-4 px-1">
+			    <img class="mx-auto img-fluid" src="images/publications/mvsydog.png" alt="sydog_video">
+			    </div>
+			    <div class="col-lg-10">
+			    <li>
+			    <b>MV-Sydog: A Multi-View 3D Dog Pose Dataset for Advancing 3D Pose Estimation</b>
+			    <p style="font-size:medium">Short paper at the 20th ACM SIGGRAPH European Conference on Visual Media Production <a href="https://www.cvmp-conference.org/2023/" style="text-decoration:none;"> (CVMP2023)</a> <br><b style="color:red">[Coming soon]</b></p>
+			    </li>
+			    </div>
+		    </div>
+		    <div class="row">
+			    <div class="col-lg-2 py-4 px-1">
+			    <img class="mx-auto img-fluid" src="images/publications/sydog-video.png" alt="sydog_video">
+			    </div>
+			    <div class="col-lg-10">
+			    <li>
+			    <i class="fas fa-file-alt py-2 px-1"></i>
+			    <b>SyDog-Video: A Synthetic Dog Video Dataset for Temporal Pose Estimation</b> 
+			    <p style="font-size:medium">Poster presented at the Computer Vision for Animal Behavior Tracking and Modeling workshop<a href="https://www.cv4animals.com" style="text-decoration:none;"> (CV4Animals)</a>. In conjuction with CVPR2022. <br> The paper has been submitted to the International Journal of Computer Vision (IJCV) and is under review. <br><b style="color:red">[Coming soon]</b></p>
+			    </li>
+			    </div>
+		    </div>
+		    <div class="row">
+			    <div class="col-lg-2 py-4 px-1">
+			    <img class="mx-auto img-fluid" src="images/publications/sydog.jpeg" alt="sydog">
+			    </div>
+			    <div class="col-lg-10">
+			    <li>
+			    <i class="fas fa-file-alt py-2 px-1"></i>
+			    <b>SyDog: A Synthetic Dog Dataset for Improved 2D Pose Estimation</b> 
+			    <p style="font-size:medium">Poster presented at the Computer Vision for Animal Behavior Tracking and Modeling workshop<a href="https://www.cv4animals.com" style="text-decoration:none;"> (CV4Animals)</a>. In conjuction with CVPR2021. <br> <a href="resources/SyDog_paper.pdf" style="text-decoration:none;">[Paper]</a> <a href="resources/SyDog_supp.pdf" style="text-decoration:none;">[Supp]</a> <a href="https://mshooter.github.io/SyDog/" style="text-decoration:none;">[Project Page]</a></p>
+			    </li>
+			    </div>
+		    </div>
                 </ul>
             </div> 
         </div>
@@ -167,18 +195,17 @@
                 <div class="col-lg-4 text-center">
                     <h2> Teaching </h2>
                 </div>
-            <div class="col-lg-8" style="font-size:21px;">
+            <div class="col-lg-6" style="font-size:21px;">
                 <ul> 
-                    <li class="py-2">
-                        <b> Computer vision and graphics lab demonstrator (EEE2041)</b>
-			    <p>
-			    2 hours per week I support students do practical laboratory classes in OpenGL graphics programming using shaders. 
-				    I have been demonstrator for this class every year since 2021 until now. </p>
-                    </li>
 	            <li class="py-2">
                         <b> AR, VR AND THE METAVERSE (EEEM067) </b>
-			    <p>
+			<p style="font-size:medium">
 			    2 hours every other week I guide students do practical laboratory classes in developing mixed reality applications using the Meta Quest and Unity3D. </p>
+                    </li>
+                    <li class="py-2">
+                        <b> COMPUTER VISION & GRAPHICS (EEE2041)</b>
+			    <p style="font-size:medium">
+			    2 hours per week I support students do practical laboratory classes in OpenGL graphics programming using shaders. I have been a demonstrator/teaching assistant for this class every year since 2021 until now. </p>
                     </li>
                 </ul>
             </div>
@@ -190,10 +217,16 @@
 	    <div class="col-lg-4 text-center">
                 <h2>Service</h>
             </div>
-            <div class="col-lg-8"style="font-size:21px;">
+            <div class="col-lg-6"style="font-size:21px;">
 		<ul>
-           	<li class="py-2"></i><b>International Conference on 3D Vision, Online</b> <strong><a href="https://3dv2021.surrey.ac.uk/" style="text-decoration:none;">[3DV 2021]</a></strong> <br>Web and Social Media Chair </li>
-		<li class="py-2"></i><b>The 20th European Conference on Visual Media Production</b> <strong><a href="https://www.cvmp-conference.org/2023/" style="text-decoration:none;">[CVMP 2023]</a></strong> <br>Public relations chair</li>
+			<li class="py-2"></i><b>The 20th European Conference on Visual Media Production</b> <strong><a href="https://www.cvmp-conference.org/2023/" style="text-decoration:none;">[CVMP 2023]</a></strong> <br><pi style="font-size:medium">Public relations chair</p></li>
+			<li class="py-2"></i><b>International Conference on 3D Vision, Online</b> <strong><a href="https://3dv2021.surrey.ac.uk/" style="text-decoration:none;">[3DV 2021]</a></strong> <br> <p style="font-size:medium">Web and Social Media Chair </p></li>
+			<li class="py-2"></i><b>I have been a reviewer for: </b> 
+			<p style="font-size:medium"> 
+			- The 20th ACM SIGGRAPH European Conference on Visual Media Production (2023)<br> 
+			- Computer Vision with Small Data: A Focus on Infants and Endangered Animals (2024)
+			</p></li>
+
 		</ul>
             </div> 
         </div>
