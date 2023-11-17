@@ -5,8 +5,6 @@ white creme: #ecebe2
 beige #e0d2b4
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
 */
-
-
 *{
     margin: 0; 
     padding: 0; 
@@ -33,7 +31,7 @@ beige #e0d2b4
     font-weight: bold;
 }
 
-.sidebar_content .container-fluid .row .col-sm-2 .img-fluid{
+.sidebar_content .container-fluid .row .col-sm-2{
     display: block;
     margin: auto;
     text-align: center;
