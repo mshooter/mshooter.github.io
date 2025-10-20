@@ -74,13 +74,15 @@
                 <h2 class="px-4 pt-4">Hello everyone!</h2>
                 <div>
                 <p class="px-4 py-2 justify inter-word" style="font-size:large;">
-                I recently joined as a R&D Engineer at Industrial Light and Magic. I am passionate about merging computer graphics, computer vision, and AI. With a background in software development for the entertainment industry, I am enthusiastic about integrating computer graphics and vision to produce creative solutions.
+                I am a R&D Engineer at Industrial Light and Magic (Disney) and I love merging computer graphics with
+                vision and machine learning. 
                 <br> <br>
                 I received a Ph.D. in Vision, Speech and Signal Processing from the University of Surrey (UK), where I also completed my M.Sc. in Computer Vision, Robotics and Machine Learning. I additionally, completed my B.Sc. in Software Development for Animation, Games and Effects. <br><br>
-                In my post-graduate studies, I focused on researching how to estimate the pose of dogs from monocular views using synthetic data generated using game engines like Unity3D. I was fortunate to be supervised by <a href="https://www.surrey.ac.uk/people/adrian-hilton" style="text-decoration:none; color:black;">Prof. Adrian Hilton</a> and <a href="https://www.surrey.ac.uk/people/charles-malleson" style="color:black; text-decoration:none;">Dr. Charles Malleson</a>.
+                In my post-graduate studies, I focused on researching how to estimate the pose of dogs from monocular views using synthetic data generated using game engines like Unity3D.
                 <br> <br>
 
-                My research interests include 3D reconstruction, computer vision, computer graphics, deep learning, visual effects, and real-time technology.
+                My research interests include 3D reconstruction, computer vision, computer graphics, deep learning,
+                animation, and real-time technology.
                 If I am not researching, you will most likely find me doing sports or hiking &#127957;&#128690;. 
                 </p>
                 </div>
@@ -259,29 +261,43 @@
 
     <div id="articles" class="border-top py-5">
         <h2 class="text-center">Articles and Blog Posts</h2>
-        <div id="articleCarousel" class="carousel slide" data-bs-ride="carousel" > <!-- data-bs-interval="3000" Added data-bs-interval -->
+      
+        <div style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+          <!-- Carousel 1 -->
+          <div id="articleCarousel1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card mx-auto" style="width: 300px;"> <!-- Set fixed width -->
-                        <img src="images/digidogs.png" class="card-img-top" alt="Article 1" style="height: 200px; object-fit: cover;"> <!-- Set height and object-fit -->
-                        <div class="card-body">
-                            <h5 class="card-title">AI to help turn dog pics into 3D models</h5>
-                            <p class="card-text">BBC COVERAGE</p>
-                            <a href="https://www.bbc.co.uk/news/uk-england-surrey-68435966" class="btn btn-primary" target="_blank">Read More</a>
-                        </div>
-                    </div>
+              <div class="carousel-item active">
+                <div class="card mx-auto">
+                  <img src="images/digidogs.png" class="card-img-top" alt="Article 1" />
+                  <div class="card-body">
+                    <h5 class="card-title">AI to help turn dog pics into 3D models</h5>
+                    <p class="card-text">The BBC featured my work on using synthetic data from the game GTA to generate 3D skeleton models.</p>
+                    <a href="https://www.bbc.co.uk/news/uk-england-surrey-68435966" class="btn btn-primary" target="_blank">Read More</a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#articleCarousel" data-bs-slide="prev">
-                <span style="color:black;"class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#articleCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+          </div>
+      
+          <!-- Carousel 2 -->
+          <div id="articleCarousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card mx-auto">
+                  <img src="images/whatsnext.png" class="card-img-top" alt="Article 2" />
+                  <div class="card-body">
+                    <h5 class="card-title">Blog Post</h5>
+                    <p class="card-text">What's next?</p>
+                    <a href="https://www.bbc.co.uk/news/uk-england-surrey-68435966" class="btn btn-primary" target="_blank">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      
+    
     
     <!-- footer -->
     <footer class="w-100 border-top text-center d-flex flex-column">

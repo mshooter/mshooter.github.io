@@ -118,3 +118,23 @@ beige #e0d2b4
         padding-right: 10px;
     }
 } */
+
+#articles .card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 450px; /* fixed height for the whole card */
+  }
+  
+  #articles .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  #articles .card-body {
+    flex-grow: 1; /* fills remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space between content and button */
+  }
+
